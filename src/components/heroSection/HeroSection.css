@@ -53,7 +53,7 @@ video {
 
 @media screen and (max-width: 768px) {
     .hero-container > h1 {
-        font-size: 35px;
+        font-size: 40px;
         margin-top: -100px;
     }
     .hero-container > p {
@@ -65,5 +65,15 @@ video {
     }
     .btn {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .hero-container > h1 {
+        font-size: 30px;
+        margin-top: -100px;
+    }
+    .hero-container > p {
+        font-size: 20px;
     }
 }
