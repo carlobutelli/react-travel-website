@@ -20,20 +20,20 @@ video {
 
 .hero-container > h1 {
     color: #ffffff;
-    font-size: 50px;
+    font-size: 80px;
     margin-top: -100px;
 }
 
 .hero-container > p {
     margin-top: 8px;
     color: white;
-    font-size: 28px;
+    font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
 
 .hero-btns {
-    margin-top: 2px;
+    margin-top: 32px;
 }
 
 .hero-btns .btn {
@@ -46,18 +46,22 @@ video {
 
 @media screen and (max-width:960px) {
     .hero-container > h1 {
-        font-size: 40px;
+        font-size: 70px;
         margin-top: -120px;
+    }
+
+    .hero-container > p {
+        font-size: 28px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .hero-container > h1 {
-        font-size: 40px;
+        font-size: 60px;
         margin-top: -100px;
     }
     .hero-container > p {
-        font-size: 24px;
+        font-size: 26px;
     }
     .btn-mobile {
         display: block;
@@ -68,12 +72,12 @@ video {
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 360px) {
     .hero-container > h1 {
-        font-size: 30px;
+        font-size: 40px;
         margin-top: -100px;
     }
     .hero-container > p {
-        font-size: 20px;
+        font-size: 24px;
     }
 }
