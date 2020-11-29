@@ -8,6 +8,7 @@
 .home,
 .services,
 .products,
+.about,
 .sign-up {
     display: flex;
     height: 90vh;
@@ -17,28 +18,73 @@
 }
 
 .services {
-    background-image: url('./images/img-2.jpg');
+    background-image: url('images/img-5.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
+    font-size: 60px;
 }
 
 .products {
-    background-image: url('./images/img-1.jpg');
+    background-image: url('images/img-6.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
+    font-size: 60px;
 }
 
 .sign-up {
-    background-image: url('./images/img-8.jpg');
+    background-image: url('images/img-7.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
+    font-size: 60px;
+}
+
+.about {
+    background-image: url('images/img-10.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 60px;
+}
+
+@media screen and (max-width: 960px) {
+    .services {
+        font-size: 50px;
+    }
+    .products {
+        font-size: 50px;
+    }
+    .sign-up {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .services {
+        font-size: 30px;
+    }
+    .products {
+        font-size: 30px;
+    }
+    .sign-up {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .services {
+        font-size: 40px;
+    }
+    .products {
+        font-size: 40px;
+    }
+    .sign-up {
+        font-size: 40px;
+    }
 }
