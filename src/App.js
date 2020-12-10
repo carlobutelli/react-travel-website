@@ -1,12 +1,12 @@
 import React from "react";
 import './App.css';
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./Components/navbar/Navbar";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './components/home/Home';
-import Services from "./components/services/Services";
-import Products from "./components/products/Products";
-import About from "./components/about/About";
-import SignUp from "./components/sign-up/SignUp";
+import Home from './Views/home/Home';
+import Services from "./Views/services/Services";
+import Products from "./Views/products/Products";
+import About from "./Views/about/About";
+import SignUp from "./Views/sign-up/SignUp";
 
 function App() {
   return (
